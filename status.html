@@ -40,6 +40,7 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
+	
 </head>
 <body>
 
@@ -89,19 +90,19 @@
 		</div>
 	</footer>
 
-<script src="https://mcapi.us/scripts/minecraft.js"></script>
-    <script>
-      MinecraftAPI.getServerStatus('mc.hypixel.net', { //Add your IP here!
-        port: 25565 // optional, only if you need a custom port
-      }, function (err, status) {
-        if (err) {
-          return document.querySelector('.server-status').innerHTML = '<font color="#c0392b">An error occurred while loading server status, if you see this the server IP has not been set or not set correctly!</font><br><br><img width="333" src="https://media.giphy.com/media/GDnomdqpSHlIs/giphy.gif">';
-        }
+	<script src="https://mcapi.us/scripts/minecraft.js"></script>
+	<script>
+	  MinecraftAPI.getServerStatus('#', { //Add your IP here!
+		port: 30120 // optional, only if you need a custom port
+	  }, function (err, status) {
+		if (err) {
+		  return document.querySelector('.server-status').innerHTML = '<font color="#c0392b">An error occurred while loading server status, if you see this the server IP has not been set or not set correctly!</font><br><br><img width="333" src="https://media.giphy.com/media/GDnomdqpSHlIs/giphy.gif">';
+		}
 
-        // you can change these to your own message!
-        document.querySelector('.server-online').innerHTML = status.online ? '<font color="#2ecc71">Online <i class="far fa-smile"></i></font><br><br><img width="333" src="https://media.giphy.com/media/BlVnrxJgTGsUw/giphy.gif">' : '<font color="#e74c3c"> Offline <i class="far fa-frown"></i></font><br><br><img width="333" src="https://media.giphy.com/media/9Y5BbDSkSTiY8/giphy.gif">';
-      });
-    </script>
+		// you can change these to your own message!
+		document.querySelector('.server-online').innerHTML = status.online ? '<font color="#2ecc71">Online <i class="far fa-smile"></i></font><br><br><img width="333" src="https://media.giphy.com/media/BlVnrxJgTGsUw/giphy.gif">' : '<font color="#e74c3c"> Offline <i class="far fa-frown"></i></font><br><br><img width="333" src="https://media.giphy.com/media/9Y5BbDSkSTiY8/giphy.gif">';
+	  });
+	</script>
 
 	<script>
 	function myFunction() {
@@ -132,6 +133,26 @@
 	    document.documentElement.scrollTop = 0;
 	}
 	</script>
+
+	
+	<style>
+	.Online {
+		color:green;
+	}
+	.checking,.unchecked {
+		color:#FF8C00;
+	}
+	.Offline {
+		color:red;
+	}
+	
+	</style>
+	
+	<div data-bind="foreach:servers">
+	   <span data-bind="text:status,css:status"></span>
+	  
+	</div>
+	
 
 </body>
 </html>
