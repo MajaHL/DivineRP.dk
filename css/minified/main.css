@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,h6{font-family:'PT Sans', sans-serif;margin:0;padding:0;text-tran
 .parallax{height:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;}
 a{text-decoration:none;color:#3498db;transition:all .2s ease-in;}
 a:hover{text-decoration:none;color:#1670aa;transition:all .2s ease-in;}
-.button{background-color:#e74c3c;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer;}
+.button{background-color:#47c8f2;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer;}
 .button:hover{background-color:#992c21;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer;}
 .topnav{overflow:hidden;background-color:#333;box-shadow:0px 6px 13px -7px rgba(0,0,0,0.20);transition:all .2s ease-in;font-weight:700;text-transform:uppercase;background-color:#232323;position:sticky;top:0;z-index:1;}
 .topnav a{float:left;display:block;color:#f2f2f2;text-align:center;padding:24px 26px;text-decoration:none;font-size:17px;}
@@ -82,8 +82,8 @@ a:hover{text-decoration:none;color:#1670aa;transition:all .2s ease-in;}
 }
 @media screen and (max-width:799px){#home .homepage{max-width:100%;margin:0 auto;}
 }
-#home .follow-twitter{background-color:#e74c3c;color:white;padding:17px 15px;}
-#home .big-col-home{background-color:#e74c3c;color:white;padding:17px 15px;}
+#home .follow-twitter{background-color:#47c8f2;color:white;padding:17px 15px;}
+#home .big-col-home{background-color:#47c8f2;color:white;padding:17px 15px;}
 #home .big-col-home-text{background-color:#f7f7f7;color:black;padding:17px 15px;}
 #home p{font-size:16px;}
 }
@@ -113,8 +113,8 @@ footer{background-color:#11171e;color:white;}
 }
 @media screen and (max-width:799px){#gamemodes .homepage{max-width:100%;margin:0 auto;}
 }
-#gamemodes .join-info{background-color:#e74c3c;color:white;padding:17px 15px;}
-#gamemodes .big-col{background-color:#e74c3c;color:white;padding:17px 15px;}
+#gamemodes .join-info{background-color:#47c8f2;color:white;padding:17px 15px;}
+#gamemodes .big-col{background-color:#47c8f2;color:white;padding:17px 15px;}
 #gamemodes .big-col-text{background-color:#f7f7f7;color:black;padding:17px 15px;}
 #gamemodes p{font-size:16px;}
 #gamemodes .server{margin-bottom:22px;}
@@ -124,7 +124,7 @@ footer{background-color:#11171e;color:white;}
 }
 @media screen and (max-width:799px){#vote .votelist{max-width:100%;margin:0 auto;}
 }
-#vote .big-col{background-color:#e74c3c;color:white;padding:17px 15px;}
+#vote .big-col{background-color:#47c8f2;color:white;padding:17px 15px;}
 #vote .big-col-text{background-color:#f7f7f7;color:black;text-align:center;padding:17px 15px;}
 #vote .block{margin-bottom:22px;}
 #rewards{text-align:center;padding-top:66px;padding-bottom:66px;}
@@ -133,7 +133,7 @@ footer{background-color:#11171e;color:white;}
 }
 @media screen and (max-width:799px){#staff .stafflist{max-width:100%;margin:0 auto;}
 }
-#staff .big-col{background-color:#e74c3c;color:white;padding:17px 15px;}
+#staff .big-col{background-color:#47c8f2;color:white;padding:17px 15px;}
 #staff .big-col-text{background-color:#f7f7f7;color:black;text-align:center;padding:17px 15px;}
 #status{padding-top:66px;padding-bottom:66px;text-align:center;}
 #store .price{font-size:44px;font-weight:700;margin-bottom:7px;}
@@ -142,7 +142,7 @@ footer{background-color:#11171e;color:white;}
 }
 @media screen and (max-width:799px){#store .store-items{max-width:100%;margin:0 auto;}
 }
-#store .big-col{background-color:#e74c3c;color:white;padding:17px 15px;}
+#store .big-col{background-color:#47c8f2;color:white;padding:17px 15px;}
 #store .big-col-text{background-color:#f7f7f7;color:black;text-align:center;padding:17px 15px;}
 #examplelink{padding-top:66px;padding-bottom:66px;text-align:center;}
 #examplelink h1{font-size:55px;font-weight:700;text-transform:uppercase;}
