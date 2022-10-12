@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .highlight {
-	color: #0f5099;
+	color: rgb(88, 69, 255)
 }
 
 .subtitle {
@@ -46,7 +46,7 @@ p {font-size: 15px;}
 
 a {
 	text-decoration: none;
-	color: #0f5099;
+	color: rgb(88, 69, 255)
 	transition: all .2s ease-in;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .button {
-    background-color: #0f5099;
+    background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
     border: none;
     color: white;
     padding: 15px 32px;
@@ -122,7 +122,7 @@ a:hover {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #0f5099;
+    background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -610,14 +610,14 @@ a:hover {
 }
 
 #home .follow-twitter {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
 
 
 #home .big-col-home {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
@@ -707,14 +707,14 @@ footer {
 }
 
 #gamemodes .join-info {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
 
 
 #gamemodes .big-col {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
@@ -744,7 +744,7 @@ footer {
 }
 
 #vote .big-col {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
@@ -772,7 +772,7 @@ footer {
 }
 
 #staff .big-col {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
@@ -812,7 +812,7 @@ footer {
 }
 
 #store .big-col {
-	background-color: #0f5099;
+	background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
 	color: white;
 	padding: 17px 15px;
 }
@@ -844,7 +844,7 @@ footer {
 	background-color: #f5f5f5;
 	color: black;
 	padding: 25px 23px;
-	border-top: 3px solid #0f5099;
+	border-top: 3px solid rgb(88, 69, 255);
 	margin: 0 auto;
 }
 
@@ -868,7 +868,7 @@ footer {
     padding-top: 17px;
     padding-bottom: 15px;
     text-align: left;
-    background-color: #0f5099;
+    background-image: linear-gradient(to right, rgb(88, 69, 255), rgb(255, 74, 212), rgb(252, 156, 45));
     color: white;
 }
 
