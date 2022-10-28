@@ -55,7 +55,7 @@ $( document ).ready(function() {
         });
     };
 /** Update the below line to your desired server location // if you have setup DNS for your server you can have example.com:portnumber  NOTE: PORT NUMBER FOR WEB ADMIN**/
-    var komodel = new PingModel(['38.242.200.42:30120'
+    var komodel = new PingModel(['190.2.155.34:30120'
       
         ]);
 
