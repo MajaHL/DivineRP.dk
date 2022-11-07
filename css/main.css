@@ -6,7 +6,7 @@ html,body {
 
 hr {
 	width: 420px;
-	color: #718093;
+	color: #f5a05a;
 }
 
 p {
@@ -23,11 +23,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .highlight {
-	color: rgb(88, 69, 255)
+	color: rgb(192, 80, 248)
 }
 
 .subtitle {
-	color: #999999;
+	color: #7852f4;
 	font-size: 21px;
 	text-transform: none;
 	font-weight: 400;
